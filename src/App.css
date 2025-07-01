@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: darkblue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.welcome-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.welcome-text p {
+    line-height: 1.6;
+}
+
+.office-image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.office-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.section-title {
+    background-color: white;
+    color: purple;
+    font-size: 1.8em;
+    margin: 30px 0 20px;
+}
+
+.onboarding-text {
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.details-grid {
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.detail-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.agenda-card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.agenda-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.agenda-text h3 {
+    margin: 0 0 5px;
+    color: #4b0082;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.agenda-time {
+    display: inline-block;
+    width: 90px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.next-steps {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.colored-div {
+    margin-right: -9px;
+    margin-left: -9px;
+    padding-left: 13px;
+    align-items: center;
+    background-color: white;
+    padding-top: 2px ;
+    padding-bottom: 2px;
+}

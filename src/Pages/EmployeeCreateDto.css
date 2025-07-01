@@ -1,0 +1,86 @@
+.add-employee-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.add-employee-container h2,
+.add-employee-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+form > div,
+.agenda-section > div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.agenda-section {
+  border: 1px solid #5c2a2a;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.agenda-section img {
+  display: block;
+  margin-top: 10px;
+  max-width: 120px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+@media screen and (max-width: 768px) {
+  .add-employee-container {
+    padding: 20px;
+  }
+}
